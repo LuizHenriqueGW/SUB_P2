@@ -39,4 +39,14 @@ public class Dao {
     public void setEndereco(String endereco) {
         Endereco = endereco;
     }
+
+    @Override
+    public String toString() {
+        return "Dao{" +
+                "Nome='" + Nome + '\'' +
+                ", DataNascm=" + DataNascm +
+                ", Telefone=" + Telefone +
+                ", Endereco='" + Endereco + '\'' +
+                '}';
+    }
 }
